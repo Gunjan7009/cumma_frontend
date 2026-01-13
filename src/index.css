@@ -1,0 +1,19 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* All headings use Primary */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+/* All normal text uses Secondary */
+body, p, span, li, a, button, input, textarea, label {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
